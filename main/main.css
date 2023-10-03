@@ -38,3 +38,98 @@ html {
     vertical-align: middle;
     object-fit: cover;
   }
+
+.container{
+ width: 1320px;
+ padding: 20px 20px;
+ margin: 0 auto;
+}
+
+
+form {
+    margin-left: 40px;
+  }
+  
+  
+  button {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    display: inline-block;
+  }
+
+  .tennis__span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+
+  
+  .tennis__input:checked + .tennis__span {
+    background-image: url("../icon/table-tennis.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+
+  
+  .basketbol__span {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+
+
+  .basketbol__input:checked + .basketbol__span {
+    background-image: url("../icon/basketball-ball.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+
+  .voleybol__span {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+
+
+  
+  .voleybol__input:checked + .voleybol__span {
+    background-image: url("../icon/volleyball-ball.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+
+    
+  .hokkey__span {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+  
+  .hokkey__input:checked + .hokkey__span {
+    background-image: url("../icon/hockey-puck.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
